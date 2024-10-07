@@ -7,7 +7,7 @@ public class PlayerScript : MonoBehaviour
 {
     float speed = 8f;
     float screenHalfWidthInWorldUnits;
-    float halfPlayerWidth => transform.localScale.x / 2;
+    float quarterPlayerWidth => transform.localScale.x / 4;
     public event System.Action OnPlayerDeath;
     void Start()
     {
@@ -20,11 +20,11 @@ public class PlayerScript : MonoBehaviour
         float inputX  = Input.GetAxisRaw("Horizontal");
         float velocity = inputX * speed;
         transform.Translate(velocity * Time.deltaTime * Vector2.right);
-        if (transform.position.x > screenHalfWidthInWorldUnits + halfPlayerWidth)
+        if (transform.position.x > screenHalfWidthInWorldUnits + quarterPlayerWidth)
         {
             transform.position = new Vector2(-screenHalfWidthInWorldUnits, transform.position.y);
         }
-        if (transform.position.x < -screenHalfWidthInWorldUnits - halfPlayerWidth)
+        if (transform.position.x < -screenHalfWidthInWorldUnits - quarterPlayerWidth)
         {
             transform.position = new Vector2(screenHalfWidthInWorldUnits, transform.position.y);
         }
