@@ -1,5 +1,16 @@
+
+![Rocket](https://github.com/user-attachments/assets/46ddfafe-a514-41ca-aaf1-ae0fa1c4bc74)
+
 The initial release for DashStroid.
 
-To play:
+To play it for yourself:
 
-Download the ZIP file in the "realeases" tab, extract the folder to a directory of your choosing then proceed to run the executable.
+1) Head over to the "Releases" panel and select the latest release.
+
+2) Download the zipped version of the game.
+
+3) Extract the folder.
+
+4) Run the "Infiltration Game.exe".
+
+5) Enjoy.
