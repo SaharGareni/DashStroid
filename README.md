@@ -1,5 +1,6 @@
 
-![Rocket](https://github.com/user-attachments/assets/46ddfafe-a514-41ca-aaf1-ae0fa1c4bc74)
+https://github.com/user-attachments/assets/2293fb73-9c66-4884-a61d-010627c08426
+
 
 The initial release for DashStroid.
 
