@@ -1,5 +1,5 @@
 
-https://github.com/user-attachments/assets/2293fb73-9c66-4884-a61d-010627c08426
+![DashStroid](https://github.com/user-attachments/assets/c1dedc6a-79d7-4056-97b3-c2da2a1baba2)
 
 
 The initial release for DashStroid.
